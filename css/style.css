@@ -1,0 +1,53 @@
+
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#yard {
+    background-color: #A5C771;
+    padding: 20px;
+    border: solid 20px chocolate;
+    border-radius: 15%;
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: url('https://www.dropbox.com/s/th0zd8ufw5xkwye/mallet.png?raw=1'), pointer;
+}
+
+#buttons {
+    display: flex;
+}
+
+#buttons div {
+    cursor: pointer;
+    border: solid 5px chocolate;
+    border-radius: 20%;
+    margin: 5px;
+    width: 75px;
+    height:40px;
+    text-align: center;
+    background-color: #A5C771;
+}
+
+#stat {
+    display: flex;
+    width: 400px;
+    height: 30px;
+    border: solid 20px chocolate;
+    background-color: chocolate;
+    border-top-left-radius: 25%;
+    border-top-right-radius:25%;
+    justify-content: space-evenly;
+}
+
+#count-label, #score-label{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
